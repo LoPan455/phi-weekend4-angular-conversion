@@ -10,6 +10,9 @@ myApp.config(['$routeProvider', function($routeProvider) {
     .when('/todoList', {
       templateUrl: '/views/todoList.html'
     })
+    .when('/about',{
+      templateUrl: '/views/about.html'
+    })
     .otherwise({
       redirectTo: 'home'
     })
